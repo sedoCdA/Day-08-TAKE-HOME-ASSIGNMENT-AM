@@ -1,0 +1,59 @@
+PS C:\Users\aparo\AppData\Local\Programs\Microsoft VS Code> & C:\Users\aparo\AppData\Local\Programs\Python\Python314\python.exe c:/Users/aparo/Day8
+
+=============================================
+     INDIAN PAN CARD VALIDATOR
+=============================================
+
+--- Automated Test Cases ---
+
+  PAN          : ABCDE1234F
+  Status       : INVALID
+  Details      : 4th character 'D' is not a valid taxpayer code. Valid codes: A, B, C, F, G, H, J, L, P, T.
+
+  PAN          : AABCP1234F
+  Status       : VALID
+  Details      : Valid PAN number.
+  Taxpayer Type: Company
+
+  PAN          : ABCDE123F
+  Status       : INVALID
+  Details      : Invalid length: 9 characters (must be exactly 10).
+
+  PAN          : ABCDE1234
+  Status       : INVALID
+  Details      : Invalid length: 9 characters (must be exactly 10).
+
+  PAN          : ABCDE1234F
+  Status       : INVALID
+  Details      : 4th character 'D' is not a valid taxpayer code. Valid codes: A, B, C, F, G, H, J, L, P, T.
+
+  PAN          : ABCX51234F
+  Status       : INVALID
+  Details      : Position 5 must be an uppercase letter. Found: '5'.
+
+  PAN          : ABC1E1234F
+  Status       : INVALID
+  Details      : Position 4 must be an uppercase letter. Found: '1'.
+
+  PAN          : ABCDE123456
+  Status       : INVALID
+  Details      : Invalid length: 11 characters (must be exactly 10).
+
+  PAN          : AABCG7107R
+  Status       : VALID
+  Details      : Valid PAN number.
+  Status       : VALID
+  Status       : VALID
+  Details      : Valid PAN number.
+  Taxpayer Type: Company
+
+--- Try Your Own ---
+
+Enter PAN to validate (or 'q' to quit): AABCG7107L
+
+  PAN          : AABCG7107L
+  Status       : VALID
+  Details      : Valid PAN number.
+  Taxpayer Type: Company
+
+Enter PAN to validate (or 'q' to quit): 
