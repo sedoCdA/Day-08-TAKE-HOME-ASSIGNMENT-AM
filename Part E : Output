@@ -1,0 +1,25 @@
+PS C:\Users\aparo\AppData\Local\Programs\Microsoft VS Code> & C:\Users\aparo\AppData\Local\Programs\Python\Python314\python.exe c:/Users/aparo/Day8
+
+==================================================
+     SMART TRANSACTION VALIDATOR
+==================================================
+Transaction Amount (₹)                  : 60000
+Category (food/travel/electronics/other) : travel
+Hour of Transaction (0-23)              : 7
+Amount Already Spent Today (₹)          : 16000
+VIP Customer? (yes/no)                  : no
+
+--------------------------------------------------
+  TRANSACTION DETAILS
+--------------------------------------------------
+  Amount      : ₹60,000.00
+  Category    : Travel
+  Time        : 07:00
+  Daily Spent : ₹16,000.00
+  VIP Status  : No
+--------------------------------------------------
+  Status      : BLOCKED
+  Reason      : Exceeds single transaction limit of ₹50,000.
+==================================================
+
+PS C:\Users\aparo\AppData\Local\Programs\Microsoft VS Code> 
