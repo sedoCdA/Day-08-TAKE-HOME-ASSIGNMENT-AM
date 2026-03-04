@@ -1,0 +1,28 @@
+PS C:\Users\aparo\AppData\Local\Programs\Microsoft VS Code> & C:\Users\aparo\AppData\Local\Programs\Python\Python314\python.exe c:/Users/aparo/Day8
+
+══════════════════════════════════════════════════════════
+        INDIAN INCOME TAX CALCULATOR
+══════════════════════════════════════════════════════════
+Enter Annual Income (₹): 800000
+
+══════════════════════════════════════════════════════════
+        INCOME TAX CALCULATOR — NEW REGIME FY 2024-25
+══════════════════════════════════════════════════════════
+  Gross Annual Income    :       ₹8,00,000.00
+  Standard Deduction     :         ₹75,000.00
+  Taxable Income         :       ₹7,25,000.00
+──────────────────────────────────────────────────────────
+  Slab                          Rate        Income         Tax
+──────────────────────────────────────────────────────────
+  0 – 3,00,000                    0%  ₹3,00,000.00       ₹0.00
+  3,00,001 – 7,00,000             5%  ₹4,00,000.00  ₹20,000.00
+  7,00,001 – 10,00,000           10%    ₹25,000.00   ₹2,500.00
+──────────────────────────────────────────────────────────
+  Total Tax Payable                               ₹22,500.00
+  Effective Tax Rate                                   2.81%
+  Monthly Tax Deduction                            ₹1,875.00
+══════════════════════════════════════════════════════════
+
+Your effective rate is low at 2.8% — good tax position.
+
+PS C:\Users\aparo\AppData\Local\Programs\Microsoft VS Code>
