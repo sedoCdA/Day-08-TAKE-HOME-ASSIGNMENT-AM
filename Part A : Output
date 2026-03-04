@@ -1,0 +1,19 @@
+==================================================
+     UNIVERSITY ADMISSION SYSTEM
+==================================================
+Entrance Score (0-100)      : 98
+GPA (0-10)                  : 9
+Recommendation (yes/no)     : yes
+Category (general/obc/sc_st): obc
+Extracurricular Score (0-10) : 9
+
+--------------------------------------------------
+  ADMISSION RESULT
+--------------------------------------------------
+  Effective Score : 98 (no bonus applied)
+
+  Result  : ADMITTED (Scholarship)
+  Reason  : Entrance score >= 95 — automatic scholarship admission.
+==================================================
+
+PS C:\Users\aparo\AppData\Local\Programs\Microsoft VS Code>
